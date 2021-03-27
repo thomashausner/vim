@@ -58,12 +58,13 @@ map <leader>P "*p
 map <leader>q :q<cr>
 map <leader>u :MundoToggle<cr>
 map <leader>e :NERDTree<cr>
+map <leader>i :e $MYVIMRC<cr>
 map <leader>t <C-w>v<C-w>l:term<cr>i
 map <leader>w :mkview<cr>:w<cr>
 map <leader>g :Git<cr>
 map <leader>b :b<space> 
 map <leader>d :bdel<cr>
-map <leader>l :VimtexToggle<cr>
+" map <leader>l :VimtexToggle<cr>
 
 map <leader>lv :loadview<cr>
 map <leader>mv :mkview<cr>
